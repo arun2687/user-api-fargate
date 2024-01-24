@@ -10,11 +10,11 @@ pipeline {
         timestamps()
     }
 
-    tools {
+   /* tools {
         maven 'maven 3'
         jdk 'java 21'
         dockerTool 'docker-latest'
-    }
+    }*/
 
     environment {
         POM_VERSION = getVersion()
